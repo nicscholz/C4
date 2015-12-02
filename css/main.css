@@ -1,0 +1,93 @@
+head {
+
+}
+
+body {
+  font-family: 'Neris';
+  opacity: 80%;
+  background: whitesmoke;
+  background-image:url(http://www.resimsi.com/wp-content/uploads/2015/06/stars2.jpg);
+}
+
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.info {
+  text-align: center;
+  color:whitesmoke;
+  opacity: 0.8;
+}
+
+.wrapper {
+  margin: 50px auto 0;
+  width: 450px;
+}
+
+.board button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0;
+  background: #bbb;
+  opacity: 0.75;
+}
+
+button.red {
+  background-color: #FFE7AD;
+  background: linear-gradient(to bottom, whitesmoke 0%,#FFE7AD 100%);
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+button.black {
+  background: #31347F;
+  background: linear-gradient(to bottom, whitesmoke 0%,#31347F 100%);
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.info .red {
+  color: red;
+  opacity: 0.8;
+}
+
+.info .black {
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+.play-again {
+  display: none;
+}
+.play-again {
+  display: inline-block;
+  margin-bottom: 2em;
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+  background: deeppink;
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  opacity: 0.9;
+}
+.play-again:hover {
+  opacity: 1;
+}
+
+@media (max-width: 460px) {
+  .message {
+    font-size: 1.3em;
+  }
+
+  .wrapper {
+    margin: 20px auto 0;
+    width: 240px;
+  }
+
+  .board button {
+    width: 30px;
+    height: 30px;
+  }
+}
